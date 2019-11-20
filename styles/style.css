@@ -185,7 +185,7 @@ html {
 
 body {
   font-family: "Open Sans Condensed", sans-serif;
-  background-color: #ffe190;
+  background-color: #0b0a07;
 }
 
 .wrapper {
@@ -204,7 +204,7 @@ body {
 h1 {
   margin: 0;
   font-family: "Shadows Into Light Two", cursive;
-  color: #e77728;
+  color: #f0ec57;
   font-size: 3rem;
 }
 
@@ -220,17 +220,17 @@ main form {
 main input {
   margin: 0 5% 5% 0;
   width: 90%;
-  background-color: #fff5e5;
-  border: 1px solid #e77728;
+  background-color: #ecf1e7;
+  border: 1px solid #f0ec57;
 }
 
 .ipsum {
   height: 75vh;
   width: 75%;
-  border: 1px solid #e77728;
+  border: 1px solid #f0ec57;
   overflow: auto;
-  background-color: #fff5e5;
-  color: #ad8223;
+  background-color: #ecf1e7;
+  color: #555e4b;
   padding: 25px;
 }
 
