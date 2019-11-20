@@ -1,0 +1,24 @@
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: $font;
+  background-color: $mainLight;
+}
+
+.wrapper {
+  width: 90%;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: $funFont;
+  color: $popColor;
+  font-size: 3rem;
+}
