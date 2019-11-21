@@ -21,4 +21,5 @@ h1 {
   font-family: $funFont;
   color: $popColor;
   font-size: 3rem;
+  text-shadow: 2px 2px 2px $mainDark, -1px -1px 3px $white;
 }

@@ -3,23 +3,35 @@ main {
   height: 75vh;
   form {
     height: 50%;
-    color: $main;
+    color: $white;
   }
   input {
     margin: 0 5% 5% 0;
     width: 90%;
-    background-color: $white;
-    border: 1px solid $popColor;
+    background-color: $main;
+    border: none;
+    box-shadow: -2px -2px 2px $popColor, 2px 2px 2px $popColor, 5px 5px $mainDark;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: $popCol2;
+    border: none;
+    padding: 10px 15px;
+    color: $white;
+    text-shadow: 2px 2px 2px $mainDark;
+    box-shadow: 2px 2px 2px $mainDark, -2px -2px 2px $mainDark, 10px 10px $popColor;
   }
 }
 
 .ipsum {
   height: 75vh;
   width: 75%;
-  border: 1px solid $popColor;
   overflow: auto;
-  background-color: $white;
-  color: $mainDark;
+  background-color: $main;
+  color: $black;
+  box-shadow: -5px -5px 5px $popCol2, 5px 5px 5px $popCol2,20px 20px $popColor;
   padding: 25px;
   p:first-of-type {
     margin-top: 0;
