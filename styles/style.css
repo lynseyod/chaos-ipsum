@@ -220,7 +220,8 @@ main form {
 }
 
 main input {
-  margin: 0 5% 5% 0;
+  margin: 5% auto 5% auto;
+  padding: 10px 15px;
   width: 90%;
   background-color: #364652;
   border: none;
