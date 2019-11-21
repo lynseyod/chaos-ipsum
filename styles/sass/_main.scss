@@ -21,7 +21,7 @@ main {
     padding: 10px 15px;
     color: $white;
     text-shadow: 2px 2px 2px $mainDark;
-    box-shadow: 2px 2px 2px $mainDark, -2px -2px 2px $mainDark, 10px 10px $popColor;
+    box-shadow: 2px 2px 2px $mainDark, -2px -2px 2px $mainDark;
   }
 }
 
@@ -31,7 +31,7 @@ main {
   overflow: auto;
   background-color: $main;
   color: $black;
-  box-shadow: -5px -5px 5px $popCol2, 5px 5px 5px $popCol2,20px 20px $popColor;
+  box-shadow: -5px -5px 10px $popColor, 5px 5px 10px $popColor;
   padding: 25px;
   p:first-of-type {
     margin-top: 0;

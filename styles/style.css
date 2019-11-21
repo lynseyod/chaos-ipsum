@@ -237,8 +237,8 @@ main button {
   padding: 10px 15px;
   color: #f0f0e2;
   text-shadow: 2px 2px 2px #0b1b33;
-  -webkit-box-shadow: 2px 2px 2px #0b1b33, -2px -2px 2px #0b1b33, 10px 10px #6b0f1a;
-          box-shadow: 2px 2px 2px #0b1b33, -2px -2px 2px #0b1b33, 10px 10px #6b0f1a;
+  -webkit-box-shadow: 2px 2px 2px #0b1b33, -2px -2px 2px #0b1b33;
+          box-shadow: 2px 2px 2px #0b1b33, -2px -2px 2px #0b1b33;
 }
 
 .ipsum {
@@ -247,8 +247,8 @@ main button {
   overflow: auto;
   background-color: #364652;
   color: #080707;
-  -webkit-box-shadow: -5px -5px 5px #31081f, 5px 5px 5px #31081f, 20px 20px #6b0f1a;
-          box-shadow: -5px -5px 5px #31081f, 5px 5px 5px #31081f, 20px 20px #6b0f1a;
+  -webkit-box-shadow: -5px -5px 10px #6b0f1a, 5px 5px 10px #6b0f1a;
+          box-shadow: -5px -5px 10px #6b0f1a, 5px 5px 10px #6b0f1a;
   padding: 25px;
 }
 
