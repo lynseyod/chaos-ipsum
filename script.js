@@ -172,6 +172,14 @@ SAFIISAWESOME.quotes = [
   {
     quote: "There is no more Juno, there is only AJAX calls",
     wordCount: 10
+  },
+  {
+    quote: "I've taken my boots off again; don't make it weird",
+    wordCount: 10
+  },
+  {
+    quote: "This is like looking in a fun-house mirror and then realizing it's just a regular mirror",
+    wordCount: 16
   }
 ]
 
