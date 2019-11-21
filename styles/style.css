@@ -229,6 +229,16 @@ main input {
           box-shadow: -2px -2px 2px #6b0f1a, 2px 2px 2px #6b0f1a, 5px 5px #0b1b33;
 }
 
+main label[for="SAFI"] {
+  display: inline-block;
+  text-align: center;
+}
+
+main #SAFI {
+  display: inline-block;
+  width: 10%;
+}
+
 main button {
   display: block;
   margin: 0 auto;

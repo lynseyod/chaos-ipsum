@@ -13,6 +13,14 @@ main {
     border: none;
     box-shadow: -2px -2px 2px $popColor, 2px 2px 2px $popColor, 5px 5px $mainDark;
   }
+  label[for="SAFI"] {
+    display: inline-block;
+    text-align: center;
+  }
+  #SAFI {
+    display: inline-block;
+    width: 10%;
+  }
   button {
     display: block;
     margin: 0 auto;

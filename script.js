@@ -192,7 +192,9 @@ SAFIISAWESOME.generateIpsum = (numParagraphs, numWords) => {
     let ipsum = ""; //oh look a shiny variable we can store our quotes in.
     let allTheWords = 0; //and something so we know how many words we have!
     for (let j = 1; j <= numWords; ++j) {
-      if (allTheWords < numWords) {
+      if ($("#SAFI").is(":checked")) {
+        ipsum += "SAFIISAWESOME ";
+      } else if (allTheWords < numWords) {
         const quotesThatWillFit = SAFIISAWESOME.quotes.filter ( (value) => {
           return value.wordCount <= (numWords - allTheWords);
         })
