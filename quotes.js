@@ -1,6 +1,4 @@
-const SAFIISAWESOME = {};
-
-SAFIISAWESOME.quotes = [
+const SAFIISQUOTES = [
   {
     quote: "Everything is nothing, and the universe is chaos",
     wordCount: 8
@@ -346,55 +344,4 @@ SAFIISAWESOME.quotes = [
   }
 ];
 
-SAFIISAWESOME.getInput = () => {
-  $("form").on("submit", function(event){
-    event.preventDefault();
-    $('.ipsum').html("");
-    const paragraphs = parseInt($("#paragraphs").val(), 10);
-    const words = parseInt($("#words").val(), 10);
-    SAFIISAWESOME.generateIpsum(paragraphs, words);
-  })
-}
-
-SAFIISAWESOME.generateIpsum = (numParagraphs, numWords) => {  
-  // start with a for loop so we can do this again and again and again and again.
-  // there is no Juno, there is only Ipsum
-  for (let i = 1; i <= numParagraphs; ++i) {
-    let ipsum = ""; //oh look a shiny variable we can store our quotes in.
-    let allTheWords = 0; //and something so we know how many words we have!
-    for (let j = 1; j <= numWords; ++j) {
-      if ($("#SAFI").is(":checked")) {
-        ipsum += "SAFIISAWESOME ";
-      } else if (allTheWords < numWords) {
-        const quotesThatWillFit = SAFIISAWESOME.quotes.filter ( (value) => {
-          return value.wordCount <= (numWords - allTheWords);
-        })
-        const numbah = Math.floor(Math.random() * quotesThatWillFit.length);
-        const newQuote = quotesThatWillFit[numbah];
-        if (ipsum == "") {
-          ipsum += `${newQuote.quote}`;
-          allTheWords += newQuote.wordCount;
-        } else if (newQuote.append) {
-          ipsum += `, ${newQuote.quote}`
-          allTheWords += newQuote.wordCount;
-        } else {
-          ipsum += `. ${newQuote.quote}`
-          allTheWords += newQuote.wordCount;
-        }
-      }
-    }
-    SAFIISAWESOME.displayIpsum(ipsum);
-  }
-}
-
-SAFIISAWESOME.displayIpsum = (depressingNonsense) => {
-  $('.ipsum').append(`<p>${depressingNonsense}!</p>`);
-}
-
-SAFIISAWESOME.init = () => {
-  SAFIISAWESOME.getInput();
-}
-
-$(function(){
-  SAFIISAWESOME.init();
-})
+export default SAFIISQUOTES;
