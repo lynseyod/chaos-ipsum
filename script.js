@@ -489,7 +489,6 @@ SAFIISAWESOME.generateIpsum = (numParagraphs, numWords) => {
           };
         }
         // now that we've dealt with our loop, reassign 'last quote' 
-        console.log(oldQuote)
         oldQuote = newQuote;
       }
     }
