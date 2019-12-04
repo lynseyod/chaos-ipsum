@@ -206,12 +206,13 @@ h1 {
   font-family: "Shadows Into Light Two", cursive;
   color: #6b0f1a;
   font-size: 3rem;
-  text-shadow: 2px 2px 2px #0b1b33, -1px -1px 3px #f0f0e2;
+  text-shadow: 1px 1px #f0f0e2;
 }
 
 main {
   width: 25%;
   height: 75vh;
+  color: #f0f0e2;
 }
 
 main form {
@@ -224,9 +225,8 @@ main input {
   padding: 10px 15px;
   width: 90%;
   background-color: #364652;
-  border: none;
-  -webkit-box-shadow: -2px -2px 2px #6b0f1a, 2px 2px 2px #6b0f1a, 5px 5px #0b1b33;
-          box-shadow: -2px -2px 2px #6b0f1a, 2px 2px 2px #6b0f1a, 5px 5px #0b1b33;
+  border: 2px solid #31081f;
+  color: inherit;
 }
 
 main label[for="SAFI"] {
@@ -247,9 +247,6 @@ main button {
   border: none;
   padding: 10px 15px;
   color: #f0f0e2;
-  text-shadow: 2px 2px 2px #0b1b33;
-  -webkit-box-shadow: 2px 2px 2px #0b1b33, -2px -2px 2px #0b1b33;
-          box-shadow: 2px 2px 2px #0b1b33, -2px -2px 2px #0b1b33;
 }
 
 .ipsum {
@@ -257,10 +254,9 @@ main button {
   width: 75%;
   overflow: auto;
   background-color: #364652;
-  color: #080707;
-  -webkit-box-shadow: -5px -5px 10px #6b0f1a, 5px 5px 10px #6b0f1a;
-          box-shadow: -5px -5px 10px #6b0f1a, 5px 5px 10px #6b0f1a;
   padding: 25px;
+  color: #f0f0e2;
+  border: 2px solid #6b0f1a;
 }
 
 .ipsum p:first-of-type {

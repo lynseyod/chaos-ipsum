@@ -436,13 +436,25 @@ SAFIISAWESOME.quotes = [
   {
     quote: `You drill a hole in your jerks and you drop your shitheads into your jerkhole`,
     wordCount: 15,
+  },
+  {
+    quote: `I talk to her about my fear of abandonment`,
+    wordCount: 9
+  },
+  {
+    quote: `I'm literally building an app about Harry Potter that has the word 'shitheads' next to two empty brackets`,
+    wordCount: 18
+  },
+  {
+    quote: `Anyone have any questions about that? ...Or about what my childhood was like?`,
+    wordCount: 13,
+    punctuation: true
+  },
+  {
+    quote: `I have very strong feelings about right and wrong`,
+    wordCount: 9
   }
 ];
-
-// I talk to her about my fear of abandonment
-// I'm literally building an app about Harry Potter that has the word 'shitheads' next to two empty brackets
-// I have very strong feelings about right and wrong
-// anyone have any questions about that? or about what my childhood was like?
 
 SAFIISAWESOME.getInput = () => {
   $("form").on("submit", function(event){

@@ -1,6 +1,7 @@
 main {
   width: 25%;
   height: 75vh;
+  color: $white;
   form {
     height: 50%;
     color: $white;
@@ -10,8 +11,8 @@ main {
     padding: 10px 15px;
     width: 90%;
     background-color: $main;
-    border: none;
-    box-shadow: -2px -2px 2px $popColor, 2px 2px 2px $popColor, 5px 5px $mainDark;
+    border: 2px solid $popCol2;
+    color: inherit;
   }
   label[for="SAFI"] {
     display: inline-block;
@@ -29,8 +30,6 @@ main {
     border: none;
     padding: 10px 15px;
     color: $white;
-    text-shadow: 2px 2px 2px $mainDark;
-    box-shadow: 2px 2px 2px $mainDark, -2px -2px 2px $mainDark;
   }
 }
 
@@ -39,9 +38,9 @@ main {
   width: 75%;
   overflow: auto;
   background-color: $main;
-  color: $black;
-  box-shadow: -5px -5px 10px $popColor, 5px 5px 10px $popColor;
   padding: 25px;
+  color: $white;
+  border: 2px solid $popColor;
   p:first-of-type {
     margin-top: 0;
   }
