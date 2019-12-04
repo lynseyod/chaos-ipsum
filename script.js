@@ -6,15 +6,15 @@ SAFIISAWESOME.quotes = [
     wordCount: 8
   },
   {
-    quote: `<em>Deborah!</em>`,
+    quote: `Deborah!`,
     wordCount: 1,
     append: true,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `My favourite coffee shop is`,
     wordCount: 4,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `I wanted to take a sip of my coffee`,
@@ -84,7 +84,7 @@ SAFIISAWESOME.quotes = [
   {
     quote: `Say my name, wizard!`,
     wordCount: 4,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `Don't waste three days of your mortal existence on a semicolon`,
@@ -109,7 +109,7 @@ SAFIISAWESOME.quotes = [
   {
     quote: `Take a break!`,
     wordCount: 3,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `because truth is an illusion`,
@@ -143,7 +143,7 @@ SAFIISAWESOME.quotes = [
   {
     quote: `Look how happy this dog is!`,
     wordCount: 6,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `I could watch this for days`,
@@ -153,7 +153,7 @@ SAFIISAWESOME.quotes = [
     quote: `because capitalism!`,
     wordCount: 2,
     append: true,
-    punctuation: false,
+    punctuation: true,
   },
   {
     quote: `We are using a bulbasaur database`,
@@ -203,12 +203,12 @@ SAFIISAWESOME.quotes = [
     quote: `stab!`,
     wordCount: 1,
     append: true,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `<em>Are you lonely?</em>`,
     wordCount: 3,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `Are there secrets? <em>Yes there are</em>`,
@@ -221,7 +221,7 @@ SAFIISAWESOME.quotes = [
   {
     quote: `I'm amazing at this! I'm inside your head!`,
     wordCount: 8,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `Angular isn't cool don't tell anyone I ever said that`,
@@ -251,7 +251,7 @@ SAFIISAWESOME.quotes = [
     quote: `<em>endlessly tumbling, endlessly empty...</em>`,
     wordCount: "4",
     append: true,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `There are no answers; it's what we call 'a quirk'`,
@@ -268,7 +268,7 @@ SAFIISAWESOME.quotes = [
   {
     quote: `THERE IS NO REASON!`,
     wordCount: 4,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `Even if you know the answer to everything, you're still definitely gonna die one day`,
@@ -301,7 +301,7 @@ SAFIISAWESOME.quotes = [
   {
     quote: `So you're like, "I think I found the source of my sadness and depression and therapy is working!" and then you go into a therapy session and you're feeling better; then your therapist asks, "...What about your sister?" and you're like "<em>OH NO. It's so much deeper!</em>"`,
     wordCount: 47,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `We are victims of our mortality`,
@@ -310,7 +310,7 @@ SAFIISAWESOME.quotes = [
   {
     quote: `Have you ever cried and high fived someone at the same time?`,
     wordCount: 12,
-    punctuation: false
+    punctuation: true
   },
   {
     quote: `Age and time is relentless: a slog forward toward death`,
@@ -356,9 +356,93 @@ SAFIISAWESOME.quotes = [
   {
     quote: `Wow! that sounds like the march of mortality!`,
     wordCount: 8,
-    punctuation: false
+    punctuation: true
+  },
+  {
+    quote: `React is just one big story of broken relationships`,
+    wordCount: 9
+  },
+  {
+    quote: `that's why I'm like this`,
+    wordCount: 5,
+    append: true
+  },
+  {
+    quote: `No further questions!`,
+    wordCount: 3,
+    punctuation: true
+  },
+  {
+    quote: `Also, as we all know, if you eat someone's heart you steal their superpowers`,
+    wordCount: 14
+  },
+  {
+    quote: `because I'm just such an upbeat guy, usually, who only says positive things`,
+    wordCount: 13,
+    append: true
+  },
+  {
+    quote: `which is... literally fuck off`,
+    wordCount: 5,
+    append: true
+  },
+  {
+    quote: `I need to wrap sincerity in the context of a lesson because I struggle with vulnerability`,
+    wordCount: 16
+  },
+  {
+    quote: `break things!`,
+    wordCount: 2,
+    append: true,
+    punctuation: true
+  },
+  {
+    quote: `Time passes ever faster as you sit here, listening to me swear at you about wizards`,
+    wordCount: 16
+  },
+  {
+    quote: `You gotta speak like I do: <em>agressively loudly</em>`,
+    wordCount: 8
+  },
+  {
+    quote: `Let's throw her in the fuckin' fire`,
+    wordCount: 7
+  },
+  {
+    quote: `and then you do one thing React doesn't know about and it's like "<em>WHAT THE HELL IS YOUR PROBLEM?</em>"`,
+    wordCount: 19,
+    append: true,
+    punctuation: true
+  },
+  {
+    quote: `React's a jerk`,
+    wordCount: 3
+  },
+  {
+    quote: `'cause I'm a disaster; I apologize`,
+    wordCount: 6,
+    append: true
+  },
+  {
+    quote: `It's fuckin' always a fuckin' callback function!`,
+    wordCount: 7,
+    punctuation: true
+  },
+  {
+    quote: `because baby arms are weak and spindly and useless`,
+    wordCount: 9,
+    append: true
+  },
+  {
+    quote: `You drill a hole in your jerks and you drop your shitheads into your jerkhole`,
+    wordCount: 15,
   }
 ];
+
+// I talk to her about my fear of abandonment
+// I'm literally building an app about Harry Potter that has the word 'shitheads' next to two empty brackets
+// I have very strong feelings about right and wrong
+// anyone have any questions about that? or about what my childhood was like?
 
 SAFIISAWESOME.getInput = () => {
   $("form").on("submit", function(event){
@@ -370,7 +454,9 @@ SAFIISAWESOME.getInput = () => {
   })
 }
 
-SAFIISAWESOME.generateIpsum = (numParagraphs, numWords) => {  
+SAFIISAWESOME.generateIpsum = (numParagraphs, numWords) => {
+  let newQuote = ""; //QUOTES
+  let oldQuote = "";  
   // start with a for loop so we can do this again and again and again and again.
   // there is no Juno, there is only Ipsum
   for (let i = 1; i <= numParagraphs; ++i) {
@@ -387,17 +473,24 @@ SAFIISAWESOME.generateIpsum = (numParagraphs, numWords) => {
         // assign the new ipsum at the end of the for loop?
         // figure out a check if the number is random so that we don't get an error
         const numbah = Math.floor(Math.random() * quotesThatWillFit.length);
-        const newQuote = quotesThatWillFit[numbah];
-        if (ipsum == "") {
+        newQuote = quotesThatWillFit[numbah];
+        if (ipsum == "") { //check if it's the first quote
           ipsum += `${newQuote.quote}`;
           allTheWords += newQuote.wordCount;
-        } else if (newQuote.append) {
-          ipsum += `, ${newQuote.quote}`
-          allTheWords += newQuote.wordCount;
-        } else {
-          ipsum += `. ${newQuote.quote}`
-          allTheWords += newQuote.wordCount;
+        } else if (oldQuote.punctuation) { //check if the previous quote has punctuation
+          ipsum += ` ${newQuote.quote}`
+        } else { 
+          if (newQuote.append) { //check if the quote is meant to be APPENDED
+            ipsum += `, ${newQuote.quote}`
+            allTheWords += newQuote.wordCount;
+          } else { //otherwise damn punctuate and add jesus
+            ipsum += `. ${newQuote.quote}`
+            allTheWords += newQuote.wordCount;
+          };
         }
+        // now that we've dealt with our loop, reassign 'last quote' 
+        console.log(oldQuote)
+        oldQuote = newQuote;
       }
     }
     SAFIISAWESOME.displayIpsum(ipsum);
